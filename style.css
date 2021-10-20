@@ -1,12 +1,44 @@
-p{
-    color:rgb(1, 100, 248);
+* {
+  margin: 0;
+  padding: 0;
 }
 
-h1{
-    text-decoration: underline;
-    text-transform: uppercase;
+.container {
+  padding: 20px;
 }
 
-h1#head{
-    color:rgb(18, 223, 97);
+h1 {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h1.head {
+  color: #0099ff;
+}
+
+.main-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.main-table td,
+.main-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.main-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.main-table tr:hover {
+  background-color: #ddd;
+}
+
+.main-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0099ff;
+  color: white;
 }
